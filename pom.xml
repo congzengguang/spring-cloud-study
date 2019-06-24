@@ -6,6 +6,7 @@
   <modules>
     <module>spring-cloud-demo</module>
     <module>spring-cloud-eureka-server</module>
+	<module>spring-cloud-user-consumer-ribbon</module>
   </modules>
 
   <parent>
@@ -54,6 +55,7 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
+
   </dependencies>
 
 
