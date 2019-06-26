@@ -6,11 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="eureka-ha-peer-one" />
+        <module name="eureka-ha-peer-three" />
+        <module name="eureka-ha-peer-two" />
         <module name="spring-cloud-eureka-server" />
         <module name="spring-cloud-model" />
         <module name="spring-cloud-user-consumer" />
+        <module name="spring-cloud-user-consumer-ribbon" />
+        <module name="spring-cloud-user-consumer-ribbon-config" />
+        <module name="spring-cloud-user-consumer-ribbon-properties" />
         <module name="spring-cloud-user-service" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eureka-ha-peer-one (1)" target="1.7" />
+      <module name="eureka-ha-peer-one (2)" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>

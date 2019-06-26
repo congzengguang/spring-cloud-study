@@ -7,6 +7,10 @@
     <module>spring-cloud-demo</module>
     <module>spring-cloud-eureka-server</module>
 	<module>spring-cloud-user-consumer-ribbon</module>
+	<module>spring-cloud-user-consumer-ribbon-config</module>
+	<module>spring-cloud-user-consumer-ribbon-properties</module>
+	<module>spring-cloud-eureka-server-ha</module>
+	
   </modules>
 
   <parent>

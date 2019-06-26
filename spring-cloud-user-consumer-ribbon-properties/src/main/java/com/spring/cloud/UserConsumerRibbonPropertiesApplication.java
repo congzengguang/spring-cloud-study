@@ -1,6 +1,5 @@
 package com.spring.cloud;
 
-import com.ribbon.config.RibbonConfig;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
@@ -16,7 +15,8 @@ import org.springframework.web.client.RestTemplate;
 @SpringBootApplication
 @EnableEurekaClient
 @RibbonClient(name="USER-SERVICE",configuration = RibbonConfig.class)
-public class UserConsumerRibbonApplication {
+//@ComponentScan(excludeFilters ={@ComponentScan.Filter(type=FilterType.ANNOTATION,value = NotScan.class)} )
+public class UserConsumerRibbonPropertiesApplication {
     @Bean
     @LoadBalanced
     public RestTemplate getRestTemplate(){
@@ -24,6 +24,6 @@ public class UserConsumerRibbonApplication {
     }
 
     public static void main(String args[]){
-        SpringApplication.run(UserConsumerRibbonApplication.class);
+        SpringApplication.run(UserConsumerRibbonPropertiesApplication.class);
     }
 }

@@ -1,12 +1,13 @@
 package com.spring.cloud;
 
-import com.ribbon.config.RibbonConfig;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.netflix.ribbon.RibbonClient;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.FilterType;
 import org.springframework.web.client.RestTemplate;
 
 /**
@@ -16,7 +17,8 @@ import org.springframework.web.client.RestTemplate;
 @SpringBootApplication
 @EnableEurekaClient
 @RibbonClient(name="USER-SERVICE",configuration = RibbonConfig.class)
-public class UserConsumerRibbonApplication {
+@ComponentScan(excludeFilters ={@ComponentScan.Filter(type=FilterType.ANNOTATION,value = NotScan.class)} )
+public class UserConsumerRibbonConfigApplication {
     @Bean
     @LoadBalanced
     public RestTemplate getRestTemplate(){
@@ -24,6 +26,6 @@ public class UserConsumerRibbonApplication {
     }
 
     public static void main(String args[]){
-        SpringApplication.run(UserConsumerRibbonApplication.class);
+        SpringApplication.run(UserConsumerRibbonConfigApplication.class);
     }
 }

@@ -7,5 +7,12 @@
     <file url="file://$PROJECT_DIR$/spring-cloud-demo/spring-cloud-user-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-demo/spring-cloud-user-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-eureka-server-ha" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-eureka-server-ha/eureka-ha-peer-one" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-eureka-server-ha/eureka-ha-peer-three" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-eureka-server-ha/eureka-ha-peer-two" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-user-consumer-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-user-consumer-ribbon-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-user-consumer-ribbon-properties" charset="UTF-8" />
   </component>
 </project>
