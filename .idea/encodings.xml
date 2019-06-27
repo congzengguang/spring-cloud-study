@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-consumer-turbine" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-demo/spring-cloud-model" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-demo/spring-cloud-user-consumer" charset="UTF-8" />
@@ -11,8 +12,11 @@
     <file url="file://$PROJECT_DIR$/spring-cloud-eureka-server-ha/eureka-ha-peer-one" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-eureka-server-ha/eureka-ha-peer-three" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-eureka-server-ha/eureka-ha-peer-two" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-hystrix-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-user-consumer-hystrix" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-user-consumer-ribbon" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-user-consumer-ribbon-config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-user-consumer-ribbon-properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-user-feign-webservice" charset="UTF-8" />
   </component>
 </project>

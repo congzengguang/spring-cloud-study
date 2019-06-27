@@ -11,7 +11,10 @@
 	<module>spring-cloud-user-consumer-ribbon-properties</module>
 	<module>spring-cloud-eureka-server-ha</module>
     <module>spring-cloud-user-feign-webservice</module>
-	
+    <module>spring-cloud-user-consumer-hystrix</module>
+    <module>spring-cloud-consumer-turbine</module>
+    <module>spring-cloud-hystrix-dashboard</module>
+
   </modules>
 
   <parent>
