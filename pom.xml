@@ -14,6 +14,7 @@
     <module>spring-cloud-user-consumer-hystrix</module>
     <module>spring-cloud-consumer-turbine</module>
     <module>spring-cloud-hystrix-dashboard</module>
+      <module>spring-cloud-apigetway-zuul</module>
 
   </modules>
 
